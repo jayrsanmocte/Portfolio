@@ -20,7 +20,8 @@ body {
     font-weight: bold;
     color: white;
     margin: 30px 0;
-    border-radius: 5px;   
+    border-radius: 5px;
+    
 }
 .name p{
 font-size: 50px;
@@ -35,26 +36,39 @@ color: rgb(255, 252, 252);
 border-radius: 2px;
 background-color: black;
 
-}
+
+
+
     /* download */
+    }
+     div span {
+        color: Red
+     }
+    div a {
+     text-decoration: none;
+     color: black;
+    }
+    div a:hover{
+    color :red ;
+    }
+
+ 
     .navbar-nav {
     margin-top: 50px;
     position: fixed;
     background: rgb(49, 49, 49);
-    padding: 10px 15px;
+    padding: 13px 15px;
     font-weight: inherit;
     color: rgb(253, 253, 253);
-    margin: 20px 0;
+    margin-top: 100px;
     border-radius: 10px;
+
     }
     .nav-link {
         background-color: rgb(7, 7, 7);
         color: white;
     }
 .nav-link:hover{
-color :red ;
+color: red ;
 }
 
-div a {
-
-}
